@@ -1,6 +1,6 @@
-index.html
-.gitignore
+#index.html
+#.gitignore
 
-/css
-/img
-/js
+#/css
+#/img
+#/js
