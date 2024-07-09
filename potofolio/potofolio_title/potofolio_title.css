@@ -1,0 +1,54 @@
+.portfolio-section {
+  text-align: center;
+  padding-top: 130px;
+}
+
+.potofolio-center_1 {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 6vw;
+  width: 35%;
+}
+
+.potofolio-title h3 {
+  font-size: 2vw;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.potofolio-line { 
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 2px;
+  background-color: yellow;
+}
+
+.potofolio-lorem {
+  margin-top: 20px;
+  font-size: 1vw;
+  color: #666;
+}
+
+.potofolio-center_2 {
+  margin: 0 auto;
+  margin-bottom: 80px;
+
+}
+
+.potofolio-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.potofolio-center_2 li {
+  margin: 0 2%;
+}
+
+.potofolio-center_2 li > a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1vw;
+}
