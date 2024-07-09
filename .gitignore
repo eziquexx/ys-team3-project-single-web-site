@@ -1,9 +1,6 @@
 index.html
+.gitignore
 
 /css
 /img
 /js
-
-.gitignore
-
-.vscode
