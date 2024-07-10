@@ -16,15 +16,8 @@ section {
 
 section#ourService {
   background-color: #fff;
-  /* overflow: hidden; */
 }
-/* section#ourService .wrap {
-  position: relative;
-  width: 1170px;
-  padding: 80px 15px;
-  margin: 0 auto;
-  border: 1px solid red;
-} */
+
 
 /* 
   section#ourService 
@@ -77,7 +70,6 @@ section#ourService .itemsWrap ul {
 section#ourService .itemsWrap ul li.serviceItem {
   width: 33.333%;
   display: block;
-  /* height: 200px; */
   position: relative;
   padding-left: 15px;
   padding-right: 15px;
@@ -163,7 +155,6 @@ section#work ul.workItemsWrap li.workItem .wItemIcon img {
 }
 section#work ul.workItemsWrap li.workItem .wItemText {
   display: block;
-  /* height: 40px; */
   float: left;
   line-height: 40px;
   padding-left: 20px;
@@ -185,8 +176,7 @@ section#work ul.workItemsWrap li.workItem .wItemText span:last-child {
 
 
 
-/* section test & animation */
-
+/* section test & animation (나중에 삭제해야 함) */
 section.testSection {
   background-color: #ccc;
   padding: 500px 0;
