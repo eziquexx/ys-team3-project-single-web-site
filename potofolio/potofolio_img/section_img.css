@@ -1,0 +1,22 @@
+.potofolio-center_2 {
+  margin: 0 auto;
+  margin-bottom: 80px;
+
+}
+
+.potofolio-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.potofolio-center_2 li {
+  margin: 0 2%;
+}
+
+.potofolio-center_2 li > a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1vw;
+}
