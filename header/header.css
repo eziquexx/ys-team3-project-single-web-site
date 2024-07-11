@@ -1,0 +1,53 @@
+.nav { 
+  position: fixed;
+  background-color: gray;
+  height: 5rem;
+  width: 100%;
+  box-sizing: border-box;
+  transition: .3s ease-in;
+}
+
+.line-block {
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+  margin: 1.5rem 0;
+  margin-left: 3rem;
+}
+
+.logo img {
+  transition: .3s ease-in;
+}
+
+.tel {
+  float: right;
+  margin: 1.45rem 0;
+  margin-right: 3rem;
+}
+
+.tel p {
+  padding: .5rem 2rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: white;
+  transition: .3s ease-in;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li {
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 1rem 1rem;
+  margin: 1.14rem 1rem;
+  transition: .3s ease-in;
+}
+
+body {
+  height: 4000px;
+}
