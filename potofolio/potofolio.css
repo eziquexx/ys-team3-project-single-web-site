@@ -88,9 +88,6 @@
   width: 100%;
 }
 
-.potofolio-img li:hover img::before {
-}
-
 .potofolio-img_info {
   display: none;
 }

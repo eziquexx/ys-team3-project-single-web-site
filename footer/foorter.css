@@ -3,12 +3,6 @@
   text-align:center;
   background-color: black;
 }
-.footer-img{
-  
-
- /* justify-content: center; */
-
-}
 .footer-img > ul  li {
   display:inline-block;
   justify-content:center;
