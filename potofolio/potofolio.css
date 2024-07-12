@@ -1,0 +1,96 @@
+/* 타이틀 부분 */
+.portfolio-title_section {
+  text-align: center;
+  padding-top: 130px;
+}
+
+.potofolio-title_contents {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 6vw;
+}
+
+.potofolio-title h3 {
+  font-size: 2vw;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.potofolio-line {
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 2px;
+  background-color: yellow;
+}
+
+.potofolio-lorem {
+  margin-top: 20px;
+  font-size: 1vw;
+  color: #666;
+}
+
+/* 메뉴 부분 */
+.potofolio-menu_contents {
+  padding: 0 auto;
+  margin-bottom: 20px;
+}
+
+.potofolio-list {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.potofolio-menu_contents li {
+  margin: 0 0 0 2%;
+}
+  
+.potofolio-menu_contents a {
+  color: #666;
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: bolder;
+}
+
+.potofolio-menu_contents li:hover{
+  text-decoration: underline;
+}
+
+/* .underline {
+  position: relative;
+} */
+
+.underline::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 120%;
+  background-color: black;
+}
+
+/* 이미지 부분 */
+.portfolio-img_section ul {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.potofolio-img {
+  width: 20%;
+  margin: 1% 1.5%;
+ 
+}
+
+.potofolio-img img {
+  width: 100%;
+}
+
+.potofolio-img li:hover img::before {
+}
+
+.potofolio-img_info {
+  display: none;
+}
