@@ -1,57 +1,64 @@
-.contact{
+#contactWrap {
+  position: relative;
+}
+#contactWrap .contact{
   text-align: center;
   margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 110px;
 }
-.contact_title{
+#contactWrap .contact_title{
   width: 1280px;
   height: 400px;
   position: relative;
-  margin-top: 60px;
-  background-color: #333;
-  margin: 0 auto;
+  margin: 130px auto 0;
   margin-bottom:6vw ;
-
 }
-.contact_title  h2 {
+#contactWrap .contactBg {
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  background-color: #1c1c1c;
+  z-index: -2;
+}
+#contactWrap .contact_title  h2 {
   color: white;
   text-align: center;
   font-size: 2.5vw;
   font-weight:bolder;
-  margin-top: 6vw;
-  padding-top:5vw ;
 }
-.contact_title_line{
+#contactWrap .contact_title_line{
   text-align: center;
   width: 100px;
   height: 2px;
   margin-bottom: 50PX;
   margin: 0 auto;
   margin-top: 10px;
-  background-color: yellow;
+  background-color: #f7d23d;
 }
-
-.contact_lorem > h4 {
+#contactWrap .contact_lorem > h4 {
   font-size: 1vw; 
   text-align:center;
   color: white;
-  line-height:2vw; 
+  line-height:1.5; 
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 110px;
+  color: #666;
   z-index: 5;
 }
 
-.contact_img{
+#contactWrap .contact_img{
   display: flex;
   justify-content:space-evenly;
   /* background-color: white;  */
 }
-.contact_img1_testbg{
+#contactWrap .contact_img1_testbg{
   width: 300px;
   height: 300px;
   background-color: white;
   box-shadow: 5px 5px 20px -5px #666;
 } 
-.contact_img1_testbg >.icon1 {
+#contactWrap .contact_img1_testbg >.icon1 {
   width: 50px;
   height: 50px;
   margin-top:80px ;
@@ -62,13 +69,13 @@
   background-position-Y: 5PX;  */
   background-size: cover;
 }
-.contact_img1_testbg > h4 {
+#contactWrap .contact_img1_testbg > h4 {
   margin-top: 40PX;
   font-size: 1vw;
   font-weight: bolder;
   align-items: center; 
 }
-.contact_img1_testbg P{
+#contactWrap .contact_img1_testbg P{
   margin-top: 20PX;
   font-size: 0.9vw;
   align-items: center; 
@@ -83,13 +90,13 @@
   background-position-Y: 70PX;
 
 } */
-.contact_img2_testbg{
+#contactWrap .contact_img2_testbg{
   width: 300px;
   height: 300px;
   background-color: white;
   box-shadow: 5px 5px 20px -5px #666;
 } 
-.contact_img2_testbg >.icon2 {
+#contactWrap .contact_img2_testbg >.icon2 {
   width: 50px;
   height: 50px;
   margin-top:80px ;
@@ -100,14 +107,14 @@
   background-position-Y: 5PX;  */
   background-size: cover;
 }
-.contact_img2_testbg> h4 {
+#contactWrap .contact_img2_testbg> h4 {
   margin-top: 40PX;
   font-size: 1vw;
   font-weight: bolder;
   align-items: center; 
   /* padding: 10px 0px 15px; */
 }
-.contact_img2_testbg P{
+#contactWrap .contact_img2_testbg P{
   margin-top: 20PX;
   font-size: 0.9vw;
   line-height: 1vw;
@@ -115,13 +122,13 @@
   color: #666;
   /* padding: 10px 0px 15px; */
 }
-.contact_img3_testbg{
+#contactWrap .contact_img3_testbg{
   width: 300px;
   height: 300px;
   background-color: white;
   box-shadow: 5px 5px 20px -5px #666;
 } 
-.contact_img3_testbg >.icon3 {
+#contactWrap .contact_img3_testbg >.icon3 {
   width: 50px;
   height: 50px;
   margin-top:80px ;
@@ -132,14 +139,14 @@
   background-position-Y: 5PX;  */
   background-size: cover;
 }
-.contact_img3_testbg> h4 {
+#contactWrap .contact_img3_testbg> h4 {
   margin-top: 40PX;
   font-size: 1vw;
   font-weight: bolder;
   align-items: center; 
   /* padding: 10px 0px 15px; */
 }
-.contact_img3_testbg P{
+#contactWrap .contact_img3_testbg P{
   margin-top: 20PX;
   font-size: 0.9vw;
   align-items: center; 
@@ -147,89 +154,122 @@
   color: #666;
   /* padding: 10px 0px 15px; */
 }
-.contact_menu{
-  margin-top: 230px;
-  text-align: center;
+#contactWrap .contact_menu{
+  width: 1170px;
   padding-top:40px ;
-  margin-bottom: 30px;
+  margin: 230px auto 30px;
 }
-.left-menu{
+#contactWrap .left-menu{
   float: left; 
   width: 50%;
+  padding: 0 20px;
 }
-.left-menu > h2 {
-  margin-top: 50px;
+#contactWrap .left-menu > h2 {
+  text-align: left;
   display: block;
-  font-size: 2vw; 
+  font-size: 25px; 
+  /* font-size: 2vw;  */
+  color: #232323;
+  font-weight: 300;
 }
-.ul > .left-menu-list{
- display: inline-block;
-  width: 130px;
+#contactWrap ul.left-menu-list{
+  display: block;
+  /* width: 130px; */
   /* margin-left: 100px; */
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px;
-  
 }
-.left-menu-list > li{
-  width: 400px;
-  height: 50px;
-  margin-top: 50px;
-  margin-left:220px; 
-  border-bottom: 1px solid gray;
+#contactWrap .left-menu-list > li{
+  width: 90%;
+  /* height: 50px; */
+  /* margin-top: 50px; */
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  /* margin-left:220px;  */
+  border-bottom: 1px solid #e4e4e4;
 }
-.left-menu-list > li > h4 {
+#contactWrap .left-menu-list > li > h4 {
   width: 340px;
   float: left;
   text-align: left;
-  font-size: 1vw; 
-  
+  color: #232323;
+  /* font-size: 1vw;  */
+}
+#contactWrap .left-menu-list > li > div {
+  color: #626262;
 }
 
-.right-menu {
+#contactWrap .right-menu {
   width: 50%;
   float: right;
-  
+  padding: 0 20px;
 }
-.right-menu > h2 {
+#contactWrap .right-menu .right-menu-wrapping {
+  width: 90%;
+  margin: 0 auto;
+}
+#contactWrap .right-menu > div {
+  width: 100%;
+}
+#contactWrap .right-menu h2 {
   display: block;
-  font-size: 2vw; 
+  font-size: 25px; 
   margin-bottom:10px ;
-  padding-right:150px;
+  text-align: left;
+  font-weight: 300;
+  color: #232323;
 }
-.button{
-  width: 600px;
+#contactWrap .button{
+  width: 100%;
+  margin-top: 40px;
 }
-.btn1{
-  width: 24%;
+#contactWrap .button li {
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  clear: both;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+#contactWrap .button li input {
+  padding: 24px 18px;
+  display: inline-block;
+}
+#contactWrap .btn1{
+  width: 49%;
   height: 30px;
-  margin-right:  5px;
   border: none;
+  float: left;
   background-color: rgba(0,0,0,0.1);
 }
-.btn2{
-  width: 55%;
+#contactWrap .btn2{
+  width: 49%;
   height: 30px;
-  margin: 10px 0;
   border: none;
+  float: right;
   background-color: rgba(0,0,0,0.1);
 }
-.btn3{
-  width: 80%;
-  height: 80px;
-  margin: 10px 0;
+#contactWrap .btn3{
+  width: 100%;
   border: none;
   background-color:rgba(0,0,0,0.1);
 }
-.btn4{
-  width: 80%;
+#contactWrap .btn4{
+  width: 100%;
   height: 200px;
   margin: 10px 0;
   border: none;
   background-color: rgba(0,0,0,0.1);
 }
 
-.send-messace{
-  width: 80%;
+#contactWrap .send-messace{
+  width: 100%;
   background-color: black;
   color: white;
+  border: none;
+  padding: 10px 0;
+  font-family: "Montserrat", sans-serif;
 }

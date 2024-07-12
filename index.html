@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="./about-us/about-us.css">
   <link rel="stylesheet" href="./company-profile/company-profile.css">
   <link rel="stylesheet" href="./our-service/our-service.css">
+  <link rel="stylesheet" href="./portfolio/portfolio.css">
+  <link rel="stylesheet" href="./client/client.css">
+  <link rel="stylesheet" href="./contact/contact.css">
+  <link rel="stylesheet" href="./footer/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -94,51 +98,38 @@
     });
   </script><!-- companyProfile 끝 -->
 
-  <!-- portfolio 시작 
- <div id="portfolioWrap"></div>
- <script>
-   $(function(){
-       includeHTML('portfolioWrap','portfolio.html', null);
-   });
- </script>  <!-- portfolio 끝 
+   <!-- portfolio 시작 -->
+  <div id="portfolioWrap"></div>
+  <script>
+    $(function(){
+        includeHTML('portfolioWrap','./portfolio/portfolio.html', null);
+    });
+  </script>  <!-- portfolio 끝 -->
+ 
 
- <!-- client 시작 
+ <!-- client 시작 -->
  <div id="clientWrap"></div>
  <script>
    $(function(){
-       includeHTML('clientWrap','client.html', null);
+       includeHTML('clientWrap','./client/client.html', null);
    });
- </script>  <!-- contact 끝 
+ </script>  <!-- client 끝 -->
 
- <!-- contact 시작 
+ <!-- contact 시작 -->
  <div id="contactWrap"></div>
  <script>
    $(function(){
-       includeHTML('contactWrap','contact.html', null);
-   });
- </script>  <!-- contact 끝 
- 
- <!-- FAQ 시작 
- <div id="FAQ"></div>
- <script>
-   $(function(){
-       includeHTML('FAQ','faq.html', null);
-   });
- </script>  <!-- contact 끝 
-
- <!-- footer 시작 
- <div id="footer"></div>
- <script>
-   $(function(){
-       includeHTML('footer','footer.html', null);
+       includeHTML('contactWrap','./contact/contact.html', null);
    });
  </script>  <!-- contact 끝 -->
 
-
-  <section class="testsection">portfolio section</section>
-  <section class="testsection">client section</section>
-  <section class="testsection">contact section</section>
-  <section class="testsection">footer section</section>
+ <!-- footer 시작 -->
+ <div id="footer"></div>
+ <script>
+   $(function(){
+       includeHTML('footer','./footer/footer.html', null);
+   });
+ </script>  <!-- footer 끝 -->
 
 </body>
 </html>
