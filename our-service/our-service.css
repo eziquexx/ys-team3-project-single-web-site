@@ -58,7 +58,7 @@ section#ourService .titleWrap p {
 section#ourService .itemsWrap {
   position: relative;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 section#ourService .itemsWrap ul {
   position: relative;
@@ -172,15 +172,4 @@ section#work ul.workItemsWrap li.workItem .wItemText span:last-child {
   font-size: 12px;
   color: #666;
   line-height: 16px;
-}
-
-
-
-/* section test & animation (나중에 삭제해야 함) */
-section.testSection {
-  background-color: #ccc;
-  padding: 500px 0;
-  border: 1px solid green;
-  text-align: center;
-  font-size: 40px;
 }
