@@ -1,0 +1,235 @@
+.contact{
+  text-align: center;
+  margin: 0 auto;
+}
+.contact_title{
+  width: 1280px;
+  height: 400px;
+  position: relative;
+  margin-top: 60px;
+  background-color: #333;
+  margin: 0 auto;
+  margin-bottom:6vw ;
+
+}
+.contact_title  h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight:bolder;
+  margin-top: 6vw;
+  padding-top:5vw ;
+}
+.contact_title_line{
+  text-align: center;
+  width: 100px;
+  height: 2px;
+  margin-bottom: 50PX;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: yellow;
+}
+
+.contact_lorem > h4 {
+  font-size: 1vw; 
+  text-align:center;
+  color: white;
+  line-height:2vw; 
+  margin-top: 30px;
+  margin-bottom: 50px;
+  z-index: 5;
+}
+
+.contact_img{
+  display: flex;
+  justify-content:space-evenly;
+  /* background-color: white;  */
+}
+.contact_img1_testbg{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 5px 5px 20px -5px #666;
+} 
+.contact_img1_testbg >.icon1 {
+  width: 50px;
+  height: 50px;
+  margin-top:80px ;
+  margin-left:120px;
+  align-items: center; 
+  background:url(../img/contact-icon1.png)no-repeat;
+  /* background-position-x: 5PX;
+  background-position-Y: 5PX;  */
+  background-size: cover;
+}
+.contact_img1_testbg > h4 {
+  margin-top: 40PX;
+  font-size: 1vw;
+  font-weight: bolder;
+  align-items: center; 
+}
+.contact_img1_testbg P{
+  margin-top: 20PX;
+  font-size: 0.9vw;
+  align-items: center; 
+  line-height: 1.2vw;
+  color: #666;
+  /* padding: 10px 0px 15px; */
+}
+/* .contact_img1_testbg{
+  background:url(../img/contact-icon1.png)no-repeat;
+  background-size:15%;
+  background-position-x: 120PX;
+  background-position-Y: 70PX;
+
+} */
+.contact_img2_testbg{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 5px 5px 20px -5px #666;
+} 
+.contact_img2_testbg >.icon2 {
+  width: 50px;
+  height: 50px;
+  margin-top:80px ;
+  margin-left:120px;
+  align-items: center; 
+  background:url(../img/contact-icon2.png)no-repeat;
+  /* background-position-x: 5PX;
+  background-position-Y: 5PX;  */
+  background-size: cover;
+}
+.contact_img2_testbg> h4 {
+  margin-top: 40PX;
+  font-size: 1vw;
+  font-weight: bolder;
+  align-items: center; 
+  /* padding: 10px 0px 15px; */
+}
+.contact_img2_testbg P{
+  margin-top: 20PX;
+  font-size: 0.9vw;
+  line-height: 1vw;
+  align-items: center; 
+  color: #666;
+  /* padding: 10px 0px 15px; */
+}
+.contact_img3_testbg{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 5px 5px 20px -5px #666;
+} 
+.contact_img3_testbg >.icon3 {
+  width: 50px;
+  height: 50px;
+  margin-top:80px ;
+  margin-left:120px;
+  align-items: center; 
+  background:url(../img/contact-icon3.png)no-repeat;
+  /* background-position-x: 5PX;
+  background-position-Y: 5PX;  */
+  background-size: cover;
+}
+.contact_img3_testbg> h4 {
+  margin-top: 40PX;
+  font-size: 1vw;
+  font-weight: bolder;
+  align-items: center; 
+  /* padding: 10px 0px 15px; */
+}
+.contact_img3_testbg P{
+  margin-top: 20PX;
+  font-size: 0.9vw;
+  align-items: center; 
+  line-height: 1vw;
+  color: #666;
+  /* padding: 10px 0px 15px; */
+}
+.contact_menu{
+  margin-top: 230px;
+  text-align: center;
+  padding-top:40px ;
+  margin-bottom: 30px;
+}
+.left-menu{
+  float: left; 
+  width: 50%;
+}
+.left-menu > h2 {
+  margin-top: 50px;
+  display: block;
+  font-size: 2vw; 
+}
+.ul > .left-menu-list{
+ display: inline-block;
+  width: 130px;
+  /* margin-left: 100px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.left-menu-list > li{
+  width: 400px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left:220px; 
+  border-bottom: 1px solid gray;
+}
+.left-menu-list > li > h4 {
+  width: 340px;
+  float: left;
+  text-align: left;
+  font-size: 1vw; 
+  
+}
+
+.right-menu {
+  width: 50%;
+  float: right;
+  
+}
+.right-menu > h2 {
+  display: block;
+  font-size: 2vw; 
+  margin-bottom:10px ;
+  padding-right:150px;
+}
+.button{
+  width: 600px;
+}
+.btn1{
+  width: 24%;
+  height: 30px;
+  margin-right:  5px;
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+}
+.btn2{
+  width: 55%;
+  height: 30px;
+  margin: 10px 0;
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+}
+.btn3{
+  width: 80%;
+  height: 80px;
+  margin: 10px 0;
+  border: none;
+  background-color:rgba(0,0,0,0.1);
+}
+.btn4{
+  width: 80%;
+  height: 200px;
+  margin: 10px 0;
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.send-messace{
+  width: 80%;
+  background-color: black;
+  color: white;
+}
