@@ -1,33 +1,36 @@
-.nav { 
+#navWrap .nav {
   position: fixed;
-  background-color: gray;
+  background-color: transparent;
+  /* background-color: gray; 수정 */
   height: 5rem;
   width: 100%;
   box-sizing: border-box;
   transition: .3s ease-in;
+  /* add */
+  z-index: 999;
 }
 
-.line-block {
+#navWrap .line-block {
   display: inline-block;
 }
 
-.logo {
+#navWrap .logo {
   float: left;
   margin: 1.5rem 0;
   margin-left: 3rem;
 }
 
-.logo img {
+#navWrap .logo img {
   transition: .3s ease-in;
 }
 
-.tel {
+#navWrap .tel {
   float: right;
   margin: 1.45rem 0;
   margin-right: 3rem;
 }
 
-.tel p {
+#navWrap .tel p {
   padding: .5rem 2rem;
   border: 1px solid white;
   border-radius: 50px;
@@ -35,11 +38,11 @@
   transition: .3s ease-in;
 }
 
-.menu {
+#navWrap .menu {
   text-align: center;
 }
 
-.menu li {
+#navWrap .menu li {
   color: white;
   font-size: 12px;
   font-weight: bolder;

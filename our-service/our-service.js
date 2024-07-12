@@ -5,8 +5,8 @@ $(function(){
     let windowTop = $(this).scrollTop();
     let svScrollT = $('#ourService').offset().top;
     let svWrapH = $('#ourService').innerHeight();
-    let workScrollT = $('#work').offset().top;
-    let workWrapH = $('#work').innerHeight();
+    // let workScrollT = $('#work').offset().top;
+    // let workWrapH = $('#work').innerHeight();
 
     // section#ourService 애니메이션 효과
     if(windowTop > (svScrollT - (svWrapH/2))){
