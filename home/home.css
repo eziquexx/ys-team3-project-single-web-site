@@ -21,15 +21,17 @@
   width: 100%;
   height: 54rem;
   flex-shrink: 0;
+  /* background-size: cover;
+  background-position: 50% 50%; */
+}
+
+#homeWrap ul.img {
   background-size: cover;
   background-position: 50% 50%;
 }
 
-#homeWrap .img1 {
-  background-image: url("../img/main_visual1.jpg");
-}
 
-#homeWrap .img div {
+#homeWrap ul.img li div {
   height: 864px;
   padding: 0 480px;
   padding-top: 250px;
@@ -39,14 +41,18 @@
   color: white;
 }
 
-#homeWrap .img p {
+#homeWrap ul.img p {
   font-size: 25px;
   margin-bottom: 20px;
 }
 
-#homeWrap .img h1 {
+#homeWrap ul.img h1 {
   font-size: 130px;
   font-weight: bolder;
+}
+
+#homeWrap .img1 {
+  background-image: url("../img/main_visual1.jpg");
 }
 
 #homeWrap .img2 {
