@@ -1,22 +1,20 @@
-.main-footer{
+#footer .main-footer{
   height: 300px;
   text-align:center;
   background-color: black;
 }
-.footer-img > ul  li {
+#footer .footer-img > ul  li {
   display:inline-block;
   justify-content:center;
-
-  
 }
-.footer-img > ul > li > a > img{
+#footer .footer-img > ul > li > a > img{
   width:20px;
   margin-top: 60px;
   margin-bottom: 40px;
   padding-left: 50px;
   opacity: 0.5;
 }
-.address{
+#footer .address{
   width: 100px;
   height: 250px;
   margin-top:50px;
@@ -26,17 +24,17 @@
  
   background-color:black;
 }
-span{
+#footer span{
   color: #666;
   font-size:13px ;
   line-height:35px ;
 }
-strong{
+#footer strong{
   color: #b5b2b2;
   font-weight: bolder;
   font-size:16px ;
 }
-p{
+#footer p{
   margin-top:40px ;
   color: #666;
   font-size:15px ;
