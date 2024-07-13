@@ -3,7 +3,7 @@
 /* 공통 부분
     section, .wrap
 */
-section {
+/* section {
   position: relative;
   width: 100%;
 }
@@ -12,12 +12,25 @@ section {
   width: 1170px;
   padding: 80px 15px;
   margin: 0 auto;
+} */
+
+#ourServiceWrap {
+  position: relative;
+  width: 100%;
+  padding-top: 80px;  
 }
 
 section#ourService {
+  position: relative;
+  width: 100%;
   background-color: #fff;
 }
-
+section#ourService .wrap{
+  position: relative;
+  width: 1170px;
+  padding: 0 15px 80px;
+  margin: 0 auto;
+}
 
 /* 
   section#ourService 
@@ -124,12 +137,18 @@ section#ourService .itemsWrap ul li.serviceItem .sItemSub {
 /* 
   section#work
 */
+
 section#work {
   position: relative;
   width: 100%;
   background: #1c1c1c;
 }
-
+section#work .wrap {
+  position: relative;
+  width: 1170px;
+  padding: 80px 15px;
+  margin: 0 auto;
+}
 section#work ul.workItemsWrap {
   position: relative;
   width: 100%;

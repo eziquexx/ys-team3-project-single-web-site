@@ -1,10 +1,12 @@
+#aboutWrap {
+  position: relative;
+  width: 100%;
+  padding-top: 80px; 
+}
 #aboutWrap #about {
   position: relative;
   width: 100%;
-  /* add */
-  margin-top: 50px;
 }
-
 #aboutWrap .wrap {
   position: relative;
   margin: 0 auto;

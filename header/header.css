@@ -10,10 +10,6 @@
   z-index: 999;
 }
 
-#navWrap .line-block {
-  display: inline-block;
-}
-
 #navWrap .logo {
   float: left;
   margin: 1.5rem 0;
@@ -28,14 +24,31 @@
   float: right;
   margin: 1.45rem 0;
   margin-right: 3rem;
-}
-
-#navWrap .tel p {
-  padding: .5rem 2rem;
   border: 1px solid white;
   border-radius: 50px;
+  padding: .5rem 1.4rem;
+  box-sizing: border-box;
+}
+
+#navWrap .tel span {
+  display: block;
+  background-image: url(../img/navIcon-1.png);
+  width: 18px;
+  height: 18px;
+  text-indent: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  float: left;
+  margin-right: 5px;
+  box-sizing: border-box;
+  transition: .3s ease-in;
+}
+#navWrap .tel p {
+  display: inline-block;
   color: white;
   transition: .3s ease-in;
+  box-sizing: border-box;
 }
 
 #navWrap .menu {
@@ -43,12 +56,16 @@
 }
 
 #navWrap .menu li {
+  display: inline-block;
   color: white;
   font-size: 12px;
-  font-weight: bolder;
-  padding: 1rem 1rem;
-  margin: 1.14rem 1rem;
+  padding: 1rem 0;
+  margin: 1.14rem 1.5rem;
   transition: .3s ease-in;
+}
+#navWrap .menu li.active {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
 }
 
 body {

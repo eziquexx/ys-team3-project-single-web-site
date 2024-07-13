@@ -1,7 +1,12 @@
 /* 타이틀 부분 */
+#portfolioWrap {
+  position: relative;
+  width: 100%;
+  padding-top: 80px;
+}
 #portfolioWrap .portfolio-title_section {
   text-align: center;
-  padding-top: 130px;
+  /* padding-top: 130px; */
 }
 
 #portfolioWrap .portfolio-title_contents {

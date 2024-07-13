@@ -1,8 +1,14 @@
-#client {
+#clientWrap {
+  position: relative;
+  width: 100%;
   padding-top: 80px;
+}
+#clientWrap #client {
+  /* padding-top: 80px; */
   padding-bottom: 40px;
 }
-#clientWrap .clients{
+
+#clientWrap #client .clients{
   width: 1170px;
   text-align: center;
   margin: 0 auto 10px;
