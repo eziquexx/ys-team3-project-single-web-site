@@ -22,9 +22,6 @@ $("#menu > li").click(function (e) {
   } else {
     $(this).addClass('active');
   }
-  // $(this).addClass('active');
-  // $('#menu > li.menuItem').removeClass('active');
-
   $('html, body').animate({scrollTop : offset.top - 79 +'px'}, 1000, 'easeInOutCubic');
 });
 
@@ -40,7 +37,10 @@ $(document).scroll(function () {
   } else {
     $(".menu li").css("color", "black");
     $(".tel p").css("color", "black");
-    $(".nav").css("background-color", "#fff");
+    $(".nav").css({
+      "background-color" : "#fff",
+      "border-bottom" : "1px solid rgba(0,0,0,.1)"
+    });
     $(".tel").css("border-color", "black");
     $(".tel span").css("background-image", "url(./img/navIcon-2.png)");
     $(".logo img").attr("src", "./img/logo.png");

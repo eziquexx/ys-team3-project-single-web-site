@@ -1,36 +1,34 @@
 #navWrap .nav {
   position: fixed;
-  background-color: transparent;
-  /* background-color: gray; 수정 */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
   height: 5rem;
   width: 100%;
-  box-sizing: border-box;
+  background-color: transparent;
   transition: .3s ease-in;
-  /* add */
   z-index: 999;
+  box-sizing: border-box;
 }
 
-#navWrap .logo {
+#navWrap .nav .logo {
   float: left;
-  margin: 1.5rem 0;
-  margin-left: 3rem;
+  margin-top: 4px;
 }
 
-#navWrap .logo img {
+#navWrap .nav .logo img {
   transition: .3s ease-in;
 }
 
-#navWrap .tel {
+#navWrap .nav .tel {
   float: right;
-  margin: 1.45rem 0;
-  margin-right: 3rem;
   border: 1px solid white;
   border-radius: 50px;
-  padding: .5rem 1.4rem;
+  padding: .6rem 1.4rem;
   box-sizing: border-box;
 }
 
-#navWrap .tel span {
+#navWrap .nav .tel span {
   display: block;
   background-image: url(../img/navIcon-1.png);
   width: 18px;
@@ -44,23 +42,27 @@
   box-sizing: border-box;
   transition: .3s ease-in;
 }
-#navWrap .tel p {
+#navWrap .nav .tel p {
   display: inline-block;
   color: white;
+  line-height: 110%;
   transition: .3s ease-in;
   box-sizing: border-box;
 }
 
-#navWrap .menu {
+#navWrap #menu {
+  display: block;
   text-align: center;
+  margin-top: 8px;
+  box-sizing: border-box;
 }
 
-#navWrap .menu li {
+#navWrap #menu li {
   display: inline-block;
   color: white;
   font-size: 12px;
-  padding: 1rem 0;
-  margin: 1.14rem 1.5rem;
+  padding: 0/6rem 0;
+  margin: 0 1.5rem;
   transition: .3s ease-in;
 }
 #navWrap .menu li.active {
@@ -68,6 +70,6 @@
   border-bottom: 2px solid black;
 }
 
-body {
+/* body {
   height: 4000px;
-}
+} */

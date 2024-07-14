@@ -15,7 +15,7 @@ jQuery(document).ready(function () {
     getPos(this);
     if (posX >= -951) {
       resetStart("0%");
-      console.log(posX);
+
       setTimeout(() => {
         resetEnd();
         $(".img li:last-child").prependTo(".img");
@@ -92,7 +92,7 @@ jQuery(document).ready(function () {
   function resetEnd() {
     $(".img").removeClass("tr");
     $(".img").css("transform", "translate(0%)");
-    $(".img").css("left", `-100%`);
+    $(".img").css("left", `-1920px`);
   }
 
   function resetStart(string) {
