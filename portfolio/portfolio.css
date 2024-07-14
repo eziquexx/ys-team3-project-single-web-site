@@ -98,11 +98,11 @@
 #portfolioWrap .portfolio-img_section ul {
   display:flex;
   flex-wrap:wrap;
-  justify-content: center;
+  justify-content: normal;
   overflow: hidden;
 }
 
-#portfolioWrap .portfolio-img {
+#portfolioWrap .portfolio-img_section ul li {
   position: relative;
   display: block;
   box-sizing: border-box;
