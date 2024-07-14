@@ -30,7 +30,10 @@ $(document).scroll(function () {
   if($(document).scrollTop() == 0) {
     $(".menu li").css("color", "");
     $(".tel p").css("color", "");
-    $(".nav").css("background-color", "");
+    $(".nav").css({
+      "background-color" : "",
+      "border-bottom" : "none"
+    });
     $(".tel").css("border-color", "");
     $(".tel span").css("background-image", "url(./img/navIcon-1.png)");
     $(".logo img").attr("src", "./img/logo-white.png");
